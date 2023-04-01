@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@100;200;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------first navbar----------- */
+.navbar {
+    width: 100%;
+    background-color: black !important;
+
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-nav {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+/* --------------second navbar---------------- */
+.secondNavbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+/* logo */
+
+
+.secondNavbar .logo img {
+    width: 10rem;
+    height: 10rem;
+}
+/* search box */
+.searchbox {
+    width: 30rem;
+    border: none;
+    padding: .5rem;
+    text-align: center;
+    box-shadow: 6px 6px 5px 2px #c1bcbc;
+    color: black;
+    font-weight: 500;
+
+
+}
+.searchIcon {
+    position: absolute;
+    z-index: 99;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* login btn , hero sec btns */
+.greenbtn {
+    background-color: rgb(24, 110, 24);
+    border: none;
+    padding: .6rem;
+    color: white;
+    border-radius: .3rem;
+    font-weight: 600;
+
+}
+
+.greenbtn:hover {
+    background: white;
+    color: rgb(24, 110, 24);
+    font-weight: 600;
+    border: 2px solid rgb(24, 110, 24);
+}
+
+.lightbtn {
+    background: white;
+    color: rgb(24, 110, 24);
+    font-weight: 600;
+    padding: .6rem;
+    border-radius: .3rem;
+    border: 2px solid rgb(24, 110, 24);
+
+}
+
+.lightbtn:hover {
+    background-color: rgb(24, 110, 24);
+    color: white;
+
+}
+/* second nav ends */
+
+/* ------hero section starts , all flex sections(sec1,sec2)------------ */
+.flexSection {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-text {
+    width: 50%;
+    text-transform: capitalize;
+
+}
+.flex-image{
+    width: 40%;
+}
+
+.flex-image img{
+    width: 100%;
+}
+
+.greentxt {
+    color: rgb(24, 110, 24);
+}
+/* ------------hero ends---------- */
+
+
+/*-------------------- courses section starts--------------*/
+.courseHeading{
+    width: 100%;
+    height: auto;
+    background-color: rgb(110, 58, 158);
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0;
+}
+/* card container */
+.courseCardContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+/* card */
+.card{
+    width: 25rem;cd
+    
+    margin-top: 3rem;
+    padding: 1rem;
+    
+}
+
+.card h2{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgba(17, 0, 255, 0.552);
+}
+
+.livebtn{
+    font-size: .9rem;
+    color: red;
+    text-transform: uppercase;
+    margin-left: 1.2rem;
+    border: 1px solid rgb(131, 127, 127);
+}
+
+.date-time{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mentors-containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mentors{
+    display: flex;
+    align-items: center;
+
+}
+
+.mentors p{
+    padding: .7rem;
+    border-radius: 50%;
+    font-size: .6rem;
+    
+}
+.orange{
+    background: orange;
+
+}
+.pink{
+    background-color: palevioletred;
+}
+.blue{
+    background-color: rgb(34, 162, 222);
+}
+.purple{
+    background-color: rgb(133, 31, 228);
+}
+
+.progressContainer{
+    width: 50%;
+}
+.progressContainer .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: .5rem;
+}
+
+.text p{
+    font-size: .9rem;
+}
+
+.courseCardContainer .btn button{
+    background-color: blue;
+    width: 60%;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+/* cards ends */
+/* ---------------course ends--------------------- */
+
+/* -------------tech & trade starts ------------*/
+
+.techTrade h1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(110, 58, 158);
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.techTrade p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.screen-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.screen-container .list{
+    position: absolute;
+    right: 19rem;
+    top: 10rem;
+   
+}
+
+.explorebtn{
+    margin-top: 2rem;
+    width: 15rem;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+
+.explorebtn:hover{
+    background-color: white;
+    color: black;
+
+}
+/* ------------trade ends ------------------*/
+
+/* ------------chat container -----------------*/
+
+.chat-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+.chat-list{
+    width: 40%;
+    /* background-color: red; */
+    
+}
+
+.chat-list p{
+   width: 100%;
+   text-align: left;
+   /* background-color: aqua; */
+   padding: .6rem 0;
+   color: white;
+
+}
+
+.chat-list ul li{
+    color: white;
+}
+
+.chatbtn{
+    width: 60%;
+    
+   
+}
+/* -----------------chat ends -----------*/
+
+/* ---------------PRO TRADER STARTS ---------------*/
+.pro-traders{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+}
+.pro-list{
+    width: 50%;
+    
+    /* background-color: blueviolet; */
+
+}
+.pro-list p{
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(54, 1, 246);
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.pro-list ul li{
+    width: 100%;
+    color: rgb(54, 1, 246);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: rgb(34, 220, 220); */
+}
+
+.probtn{
+    background-color: black;
+    color: white;
+    padding: .4rem;
+    width: 50%;
+}
+/* ---------------pro traders ends---------------------- */
+
+
+/* --------------benefits starts --------------------*/
+
+.benefits{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    /* background-color: blue; */
+}
+
+.benefit-card-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.benefits-cards{
+    width: 15rem;
+    margin: .6rem;
+    /* background-color: palevioletred; */
+}
+
+/* ----------------benefits ends------------- */
+
+/*--------------- reasons section start ------------------*/
+
+.reasons{
+    width: 75%;
+    margin: auto;
+   margin-top: 3rem;
+   margin-bottom: 4rem;
+}
+
+.reasons h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.reasons-card-container{
+    width: 73%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.flex-reason-card{
+    display: flex;
+    width: 15rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.flex-reason-card img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.flex-reason-card  p{
+    font-size: .6rem;
+    font-weight: 600;
+}
+
+/*---------- reasons ends -----------------*/
+
+/* --------------help sec starts ------------- */
+
+.help{
+    width: 100vw;
+    /* background-color: aquamarine; */
+    
+}
+
+.help img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*------------ help ends---------------- */
+
+/* ------------frequently sec start---------------- */
+
+.frequently{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.frequently h3{
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+
+}
+.accordion-button{
+    font-weight: 600;
+}
+.accordion-body{
+    font-weight: 500;
+}
+
+.social-links{
+    padding: 0 .4rem;
+}
+
+/*----------- frequent questions sec ends------------------ */
+
+/* -----------------footer nav starts ----------------------*/
+
+.footer-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 8px 6px #888888;
+    margin-top: 4rem;
+}
+.google-store,
+.apple-store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem;
+    font-size: 2rem;
+    margin: 0 1rem;
+    background-color: black;
+    color: white;
+    border-radius: .6rem;
+    line-height: .5;
+    cursor: pointer;
+   
+}
+.google-store:hover,
+.apple-store:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+.fa-google-play,
+.fa-apple{
+    margin-right: 3rem;
+    margin-left: 1rem;
+    
+   
+}
+
+.store .text{
+    width: 10rem;
+}
+
+/* -------------footer starts -------------------*/
+
+footer{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: palevioletred; */
+
+}
+.careersbtn {
+    background: black;
+    color: white;
+}
+
+.text-black{
+    border-right: 1px solid rgb(83, 79, 79);
+    padding: 1rem;
+}
+
+.map img{
+    width: 20rem;
+}
+
+.text-black li a {
+    color: black !important;
+}
+
+/* rights */
+
+.rights p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5rem;
+}
+/* -----------------footer sec ends------------------- */
+
+
+
+
+
+
+
+
+/* ---------------media queries ------------------*/
+
+@media  (max-width:991px) {
+    html {
+        font-size: 60%;
+    }
+
+    /* second nav */
+    .searchbox {
+        width: 35rem;
+    }
+
+    /* hero,sec1,sec2  container*/
+    .flexSection {
+        width: 100%;
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+    .trade-image{
+        order: 2;
+    }
+
+    .heroImage {
+        width: 30rem;
+        margin-top: 4rem;
+    }
+
+    .courseHeading{
+        height: auto;
+    }
+
+    .screen-container .list{
+        position: absolute;
+        right: 10rem;
+        top: 5rem;
+       
+    }
+
+    .chat-container{
+        
+        flex-direction: column;
+        
+    }
+
+    .chat-container .image{
+        width: 60%;
+    }
+
+    .chat-container .list{
+        width: 100%;
+    }
+   
+
+
+
+}
+
+/*  medium screen */
+@media (max-width:786px){
+    html{
+        font-size: 50%;
+       
+    }
+
+}
+
+/* small screen */
+@media (max-width:500px) {
+    html{
+        font-size: 50%;
+       
+    }
+    .navbar{
+        width: 100%;
+    }
+    .secondNavbar{
+        flex-direction: column;
+       
+    }
+    .secondNavbar .logo img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .searchIcon{
+        top: 4rem;
+        padding: .3rem;
+    }
+    .search{
+        width: 80%;
+        margin: auto;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+    .searchbox {
+        width: 28rem;
+        margin: auto;
+        margin-top: -15rem;
+    }
+
+    .flexSection {
+        justify-content: center;
+       
+    }
+    
+    .flex-text {
+        width: 80%;
+        text-transform: capitalize;
+       
+    
+    }
+    .flex-image{
+        width: 60%;
+    }
+    
+    .flex-image img{
+        width: 100%;
+    }
+    
+    .greentxt {
+        color: rgb(24, 110, 24);
+    }
+
+    .courseHeading {
+        font-size: 1rem;
+    }
+
+    .courseCardContainer{
+        justify-content: center;
+    }
+
+    .techTrade h1{
+        font-size: 1rem;
+       
+    }
+
+    .screen-container .image{
+        width: 30%;
+    }
+
+    .screen-container .list{
+      position: absolute;
+      top: 2rem;
+      right: 1rem;
+       
+    }
+    .explorebtn{
+        width: 10rem;
+        
+    }
+
+    .pro-traders .image{
+        width: 30%;
+
+    }
+    
+
+
+   
+    .pro-list{
+        width: 100%;
+        padding: 1rem;
+       
+    }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+    footer{
+        width: 60%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .address {
+        margin: 1.6rem 0;
+
+    }
+
+    .text-black{
+        border-right: none;
+        padding: 0;
+    } 
+    .footer-nav{
+        width: 100%;
+        /* background-color: pink; */
+    }
+
+    .footer-nav .logo{
+        align-items: center;
+        
+    }
+
+    .store{
+        margin-top: -4rem;
+
+    }
+    .google-store,
+   .apple-store{
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    line-height: 0;
+   
+}
+    .fa-google-play,
+    .fa-apple{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        
+    
+    }
+
+    .store .text{
+        width: 6rem;
+    }
+
+    .store .text p ,
+    .store .text h6{
+        font-size: .8rem;
+    }
+
+
+
+}
